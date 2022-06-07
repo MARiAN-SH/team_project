@@ -1,0 +1,42 @@
+.section-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.advantages-wrapper {
+  @media screen and (max-width: 767px) {
+    background-image: url('../images/advantages/mobile-milk-1x-bg.png');
+    background-position: 0px 574px;
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/advantages/mobile-milk-2x-bg.png');
+    }
+  }
+
+  @include tablet {
+    padding-top: 20px;
+    padding-bottom: 84px;
+  }
+
+  @include desktop {
+    padding-top: 60px;
+    padding-bottom: 120px;
+
+    background-image: url('../images/advantages/desktop-milk-1x-bg.png');
+    // background-position: 0px 255px;
+    background-position: 0px 215px;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: url('../images/advantages/desktop-milk-2x-bg.png');
+    }
+  }
+}
+
+.contact-wrapper {
+  @include desktop {
+    background-image: url(../images/contacts/sectionbg21.png);
+    background-position-y: 140px;
+  }
+}

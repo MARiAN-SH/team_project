@@ -1,28 +1,15 @@
 .mob-menu {
   position: fixed;
   padding-top: 20px;
-  overflow-y: auto;
   top: 0;
   height: 100vh;
   width: 100%;
-  z-index: 5;
+  z-index: 50;
   background-color: var(--modal-menu-bg-color);
-  .container {
-    height: 100%;
-    overflow: auto;
-    position: relative;
-    padding: 0;
 
-    @include mobile {
-      width: 480px;
-    }
-    @include tablet {
-      width: 254px;
-    }
-  }
   @include tablet {
     right: 0;
-    width: 254px;
+    width: 40%;
   }
 
   opacity: 0;
@@ -36,7 +23,6 @@
 
 .menu-close-btn {
   display: flex;
-  padding: 0;
   margin-bottom: 24px;
   margin-left: auto;
   margin-right: 20px;
@@ -51,18 +37,8 @@
   fill: var(--main-btn-text-color);
 }
 
-.buy-btn {
-  background-color: var(--secondary-bg-color);
-  color: var(--secondary-btn-text-color);
-  &:hover {
-    background-color: var(--secondary-btn-hover-color);
-  }
-  margin-bottom: 26px;
-}
 
-.buy-btn__icon {
-  margin-left: 20px;
-}
+
 
 .mob-menu-nav__link {
   text-decoration: none;

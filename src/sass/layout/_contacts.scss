@@ -17,14 +17,7 @@
     background: linear-gradient(0deg, var(--main-bg-color) 77%, var(--secondary-bg-color) 77%);
   }
 }
-.contact-wrapper {
-  @include desktop {
-    background-image: url(../images/contacts/sectionbg21.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-y: 140px;
-  }
-}
+
 .contacts__list {
   display: flex;
   flex-direction: column;

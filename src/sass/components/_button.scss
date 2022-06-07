@@ -60,8 +60,14 @@
 }
 
 // HEADER ***********************************************
+.header__btn {
+  width: 160px;
+}
 
-// HEADER ***********************************************
+// HERO ***********************************************
+.hero__btn{
+  padding: 0 18px;
+}
 
 // MOB-MENU *********************************************
 // <button type="button" class="buy-btn btn btn-white">Buy now</button>   добавити ці класи
@@ -69,14 +75,16 @@
 .buy-btn {
   width: 209px;
   margin: 0 auto;
-
-  &::after {
-    margin-left: 20px;
-  }
+  margin-bottom: 26px;
 }
 
-//  *********************************************
+// about *********************************************
 
+
+  .about-wrap__btn {
+    width: 176px;
+    padding: 0px 35px;
+  }
 // CONTACTS *********************************************
 .contacts-btn {
   width: 161px;

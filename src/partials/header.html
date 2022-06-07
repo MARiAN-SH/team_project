@@ -1,0 +1,39 @@
+<header class="header" id="sticky-header">
+  <div class="container header__container">
+    <a class="header__logo" href="./index.html">
+          <img
+            srcset="./images/hero-header/logo.png 1x, ./images/hero-header/logo-2x.png 2x"
+            src="./images/hero-header/logo.png"
+            alt="Logo"
+          />
+        </a>
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#home" class="navigation__link current"> Home</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#products" class="navigation__link">Our products</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#how-it-is-made" class="navigation__link">How it’s made?</a>
+        </li>
+        <li class="navigation__item"><a href="#about" class="navigation__link">About us</a></li>
+        <li class="navigation__item"><a href="#contacts" class="navigation__link">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button class="header__menu-btn btn">
+      <svg class="header__menu-btn--open" width="20" height="12">
+        <use href="./images/sprite.svg#burger"></use>
+      </svg>
+    </button>
+
+    <button class="btn btn--white header__btn" id="headerbutton" data-modal-open-1>
+      Buy now
+      <svg class="btn__icon" width="7" height="10">
+        <use href="./images/sprite.svg#icon-btn"></use>
+      </svg>
+    </button>
+  </div>
+</header>
